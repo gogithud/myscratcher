@@ -1,0 +1,372 @@
+body {
+    overflow-x: hidden;
+}
+
+#logo {
+    clip-path: circle(50%);
+    height: 80px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #a39e9e7b;
+    border-bottom: none;
+    width: 100%;
+}
+
+.navbar {
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 50px; /* メニューアイテムの右側に余白を追加 */
+}
+
+.navbar a {
+    display: inline-block;
+    color: #060606;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:first-child {
+    margin-left: 10px; /* 最初のメニューアイテムに余白を追加 */
+}
+
+.myname {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(238, 189, 10);
+    font-family: 'Pixelify Sans', cursive;
+}
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.codestudio {
+    font-family: 'Courier New', monospace;
+    background-color: #060606;
+    color: #00FF00;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.code-container {
+    max-height: 300px;
+    overflow: auto;
+    border: 1px solid #00FF00;
+}
+
+.code-line {
+    margin: 0;
+    white-space: pre-line;
+    overflow: hidden;
+    border-right: .15em solid #00FF00; /* カーソルの表示 */
+    animation: typing 5s steps(50) forwards, blink-caret 0.75s step-end infinite;
+}
+.codestudio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.run {
+    background-color: black;
+    color: #00FF00; /* テキストの色を緑に設定 */
+}
+
+
+.wise1, .wise2 {
+    position: absolute;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    background-color: #5a5a5a;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* 影の追加 */
+    width: 26%; /* 全ての要素の幅を同じに */
+    text-align: center; /* テキストを中央に */
+    border: 2px solid #fff; /* 枠線の追加 */
+}
+
+
+.wise1 {
+    padding: 30px;
+    left: 30%;
+}
+
+.wise2 {
+    padding: 30px;
+    left: 70%;
+    height: 120px;
+}
+
+.box1{
+    background-color:#6f6142a8;
+    color: white;
+    padding: 2%;
+    position: absolute;
+    top: 140%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    
+    border-radius: 1;
+    border: 2px solid #fff; /* 枠線の追加 */
+    border-radius: 10px;
+    border: 2px solid #fff; /* 枠線の追加 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* 影の追加 */
+}
+.python {
+    position: absolute;
+    top: 190%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 13%;
+}
+.html {
+    position: absolute;
+    top: 190%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 12%;
+}
+.ruby {
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 11%;
+}
+.swift {
+    position: absolute;
+    top: 190%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+}
+.godot {
+    position: absolute;
+    top: 190%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+}
+hr {
+    transform: translate(-50%, -50%);
+    border: 3px solid #787474; width: 80%;
+}
+.hr {
+    position: absolute;
+    top: 116%;
+    left: 50%;
+}
+.hr1 {
+    position: absolute;
+    top: 220%;
+    left: 50%;
+}
+.windows{
+    position: absolute;
+    top: 260%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    height: 290px;
+    width: 300px;
+    background-color: purple; /* 背景色を紫に設定 */
+    border-radius: 10px; /* 角を10ピクセルの丸みにする */
+    padding: 10px; /* 余白を追加（任意の値で調整） */
+}
+
+.windows a{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    max-width: 100%;
+    color: white; /* テキストの色を白に設定 */
+}  
+.windows .mainimg {
+    border-radius: 10px; /* 角を10ピクセルの丸みにする */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: purple;
+    max-width: 100%; /* 画像が親要素内に収まるようにする */
+}
+.windows .toimg {
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    background-color: purple;
+    width: 11%;
+    max-width: 100%; /* 画像が親要素内に収まるようにする */
+}
+.windows .toimg2 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: purple;
+    width: 10%;
+    max-width: 100%; /* 画像が親要素内に収まるようにする */
+}
+.windows .turbo{
+    position: absolute;
+    top: 91%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    background-color: purple;
+    width: 20%;
+    max-width: 100%;
+    border-radius: 100%; /* 角を10ピクセルの丸みにする */
+}
+.windows h3 a {
+    text-decoration: none; /* 下線を消す */
+}
+
+.windows h3 a:hover {
+    text-decoration: underline; /* マウスに触れた時に下線を表示する */
+}
+
+.clock{
+    position: absolute;
+    top: 260%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 290px;
+    width: 300px;
+    background-color: rgb(202, 135, 28); /* 背景色を紫に設定 */
+    border-radius: 10px; /* 角を10ピクセルの丸みにする */
+    padding: 15px; /* 余白を追加（任意の値で調整） */
+}
+
+.clock a{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    max-width: 100%;
+    color: white; /* テキストの色を白に設定 */
+}  
+.clock h3 a {
+    text-decoration: none; /* 下線を消す */
+}
+
+.clock h3 a:hover {
+    text-decoration: underline; /* マウスに触れた時に下線を表示する */
+}
+.clock .mainimg {
+    border-radius: 10px; /* 角を10ピクセルの丸みにする */
+    width: 90%;
+    background-color: rgb(202, 135, 28);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%; /* 画像が親要素内に収まるようにする */
+}
+.clock .toimg {
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    width: 11%;
+    max-width: 100%; /* 画像が親要素内に収まるようにする */
+}
+.clock .toimg2 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    max-width: 100%; /* 画像が親要素内に収まるようにする */
+}
+.clock .turbo{
+    position: absolute;
+    top: 91%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    max-width: 100%;
+}
+.other {
+    position: absolute;
+    top: 260%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    border-radius: 10px; /* 角を10ピクセルの丸みにする */
+    width: 250px;
+    height: 300px;
+}
+.other h1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.other h1 a {
+    color:#5a5a5a;
+    text-decoration: none; /* 下線を消す */
+}
+
+.other h1 a:hover {
+    text-decoration: underline; /* マウスに触れた時に下線を表示する */
+}
+
+footer {
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3a3939;
+    height: 30%;
+    width: 100%;
+}
+footer img{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+footer .studio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+}
+
+footer .studio a{
+    color: white;
+}
+footer .project {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%); 
+    color: white;
+}
+
+footer .project a{
+    color: white;
+}
